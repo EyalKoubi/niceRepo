@@ -1,0 +1,137 @@
+.main-groups-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.groups-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.groups-title-text {
+    color: black;
+    font-size: 24px;
+}
+
+.groups-list-container {
+    border-radius: 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cdeeff;
+    transform: translateY(30%);
+}
+
+.groups-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.group-name {
+    flex-grow: 1;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.remove-group-button,
+.update-group-button,
+.submit-button,
+.finish-button,
+.submit-add-group-button {
+    padding: 5px 10px;
+    border-radius: 30%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.remove-group-button {
+    background-color: red;
+}
+
+.update-group-button,
+.submit-add-group-button {
+    background-color: green;
+}
+
+.submit-button {
+    background-color: blue;
+}
+
+.finish-button {
+    background-color: orange;
+}
+
+.add-group-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-group-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.group-item-update {
+    display: flex;
+    align-items: center;
+}
+
+.group-name-input {
+    margin-right: 10px;
+}
+
+.cancel-update-button,
+.cancel-add-group-button,
+.submit-update-button,
+.cancel-add-button,
+.submit-add-button,
+.add-group-to-group-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.cancel-update-button,
+.cancel-add-button,
+.cancel-add-group-button {
+    background-color: red;
+}
+
+.submit-update-button,
+.submit-add-button {
+    background-color: green;
+}
+
+.add-group-to-group-button {
+    background-color: blueviolet;
+}
+
+.already-exists-group-error-message {
+    color: red;
+    font-size: 18px;
+}

@@ -1,0 +1,159 @@
+.main-persons-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.persons-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.persons-title-text {
+    color: black;
+    font-size: 24px;
+}
+
+.persons-list-container {
+    border-radius: 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cdeeff;
+    transform: translateY(30%);
+}
+
+.persons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.person-name {
+    flex-grow: 1;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.remove-person-button {
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 30%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.update-person-button {
+    padding: 5px 10px;
+    background-color: green;
+    border-radius: 30%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.details-person-button {
+    padding: 5px 10px;
+    background-color: purple;
+    border-radius: 30%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.person_details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.person_details input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.person_save_updates_button {
+    padding: 5px 10px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-person-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-person-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.already-exists-person-error-message {
+    color: red;
+    font-size: 18px;
+}
+
+/* Additional styles for the details section */
+.the_detais_areselfs {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.close_details {
+    padding: 5px 10px;
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.the_details_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.the_details_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.the_details_info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.close_details_button {
+    padding: 5px 10px;
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
